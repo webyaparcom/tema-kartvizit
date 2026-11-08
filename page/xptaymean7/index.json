@@ -1,0 +1,40 @@
+{
+  "id": "xptaymean7",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Fikirten baskıya; metinden görselle.",
+    "en": "From idea to print; from text to image.",
+    "ar": "من الفكرة إلى الطباعة؛ من النص إلى الصورة."
+  },
+  "keyword": {
+    "tr": "İçerik & Tasarım",
+    "en": "Content & Design",
+    "ar": "محتوى وتصميم"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "31p54r",
+      "jjhuhg"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:57:24.090Z",
+  "update": "2026-11-05T23:44:38.499Z"
+}
