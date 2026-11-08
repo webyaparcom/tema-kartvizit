@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Baskı ve kartvizit; görseller temsilîdir.",
+    "en": "Print and cards; images are representative.",
+    "ar": "طباعة وبطاقات؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "baskı, kartvizit, ajanda",
+    "en": "print, business card, agenda",
+    "ar": "طباعة، بطاقة أعمال، أجندة"
+  },
+  "category": "Kurumsal",
+  "name": "Baskı Atölye",
+  "domain": "kartvizit.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "inter",
+    "heading": "montserrat",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#1C74D5",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "2px",
+    "--mx-radius-md": "4px",
+    "--mx-radius-lg": "6px",
+    "--mx-radius-xl": "8px"
+  },
+  "icon": "icon.png"
+}
