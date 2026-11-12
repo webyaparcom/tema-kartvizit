@@ -1,7 +1,7 @@
 {
   "name": "Baskı Atölye",
   "short_name": "Baskı Atölye",
-  "description": "Baskı ve kartvizit; görseller temsilîdir.",
+  "description": "Kartvizit, broşür, afiş ve ambalaj baskısı; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",

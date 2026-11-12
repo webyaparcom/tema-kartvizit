@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,7 +1489,7 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
+          "tr": "Teklif iste",
           "en": "Get a quote",
           "ar": "اطلب عرض سعر"
         },
@@ -1522,7 +1533,7 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "ajans-is-afis.webp",
+        "img": "ajans-is-kirtasiye.webp",
         "video": "",
         "poster": "",
         "alt": "Baskı Atölye",
@@ -1539,23 +1550,23 @@
         },
         "title": {
           "tr": "Baskı, net ve keskin",
-          "en": "Print, sharp and clean",
-          "ar": "طباعة حادة ونظيفة"
+          "en": "Print that is crisp and sharp",
+          "ar": "طباعة واضحة ودقيقة"
         },
         "metin": {
-          "tr": "Baskı Atölye, baskı ve kartvizit üretir. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Baski produces print and cards. Images are representative and text is fictional.",
-          "ar": "ينتج بلك طباعة وبطاقات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Kartvizit, broşür, afiş ve ambalaj baskısı; tasarımdan teslime tek atölye. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Business card, brochure, poster and packaging printing; one workshop from design to delivery. Images are representative and text is fictional.",
+          "ar": "طباعة بطاقات الأعمال والبروشورات والملصقات والعبوات؛ ورشة واحدة من التصميم إلى التسليم. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
-          "tr": "Ürünler",
-          "en": "Products",
-          "ar": "منتجات"
+          "tr": "Baskı ürünleri",
+          "en": "Print products",
+          "ar": "منتجات الطباعة"
         },
         "cta1_url": "hizmetler",
         "cta2": {
           "tr": "Teklif iste",
-          "en": "Request quote",
+          "en": "Request a quote",
           "ar": "اطلب عرض سعر"
         },
         "cta2_url": "teklif-al",
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Ne üretiyoruz?",
-          "en": "What do we create?",
-          "ar": "ماذا نعيد؟"
+          "tr": "Rakamlarla atölye",
+          "en": "The workshop in numbers",
+          "ar": "الورشة بالأرقام"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1615,11 +1626,11 @@
         {
           "deger": 250,
           "sonek": "",
-          "ikon": "design_services",
+          "ikon": "print",
           "etiket": {
-            "tr": "Kampanya",
-            "en": "Campaigns",
-            "ar": "حملات"
+            "tr": "Aylık baskı işi",
+            "en": "Print jobs a month",
+            "ar": "مهمة طباعة شهريًا"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1630,11 +1641,11 @@
         {
           "deger": 40,
           "sonek": "",
-          "ikon": "photo_camera",
+          "ikon": "style",
           "etiket": {
-            "tr": "Set",
-            "en": "Sets",
-            "ar": "أطقم"
+            "tr": "Kâğıt ve karton çeşidi",
+            "en": "Paper and card stocks",
+            "ar": "نوع ورق وكرتون"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1643,13 +1654,13 @@
           }
         },
         {
-          "deger": 12,
+          "deger": 48,
           "sonek": "",
-          "ikon": "videocam",
+          "ikon": "schedule",
           "etiket": {
-            "tr": "Min video",
-            "en": "Min of video",
-            "ar": "دقائق فيديو"
+            "tr": "Ortalama teslim (saat)",
+            "en": "Average turnaround (hours)",
+            "ar": "متوسط مدة التسليم (ساعة)"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1662,9 +1673,9 @@
           "sonek": "",
           "ikon": "groups",
           "etiket": {
-            "tr": "Atölye",
-            "en": "Studio",
-            "ar": "استوديو"
+            "tr": "Atölye çalışanı",
+            "en": "Workshop staff",
+            "ar": "عامل في الورشة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,98 +1706,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "İçerik & Tasarım",
-          "en": "Content & Design",
-          "ar": "محتوى وتصميم"
+          "tr": "Baskı & tasarım",
+          "en": "Print & design",
+          "ar": "الطباعة والتصميم"
         },
         "title": {
-          "tr": "Ne üretiyoruz?",
-          "en": "What do we create?",
-          "ar": "ماذا نعيد؟"
+          "tr": "Ne basıyoruz?",
+          "en": "What do we print?",
+          "ar": "ماذا نطبع؟"
         },
         "description": {
-          "tr": "Fikirten baskıya; metinden görselle.",
-          "en": "From idea to print; from text to image.",
-          "ar": "من الفكرة إلى الطباعة؛ من النص إلى الصورة."
+          "tr": "Fikirden baskıya; dosyadan teslime.",
+          "en": "From the idea to print; from file to delivery.",
+          "ar": "من الفكرة إلى الطباعة؛ ومن الملف إلى التسليم."
         }
       },
       "data": [
         {
-          "icon": "campaign",
+          "icon": "badge",
           "name": {
-            "tr": "Kampanya",
-            "en": "Campaign",
-            "ar": "حملة"
+            "tr": "Kartvizit baskısı",
+            "en": "Business card printing",
+            "ar": "طباعة بطاقات الأعمال"
           },
           "description": {
-            "tr": "Mevsim ve etkinlik planı.",
-            "en": "Season and event plan.",
-            "ar": "خطة موسم ومناسبة."
+            "tr": "Mat, parlak ve kabartma seçenekleriyle kartvizit.",
+            "en": "Business cards in matt, gloss and embossed finishes.",
+            "ar": "بطاقات أعمال بتشطيبات مطفية ولامعة وبارزة."
+          }
+        },
+        {
+          "icon": "menu_book",
+          "name": {
+            "tr": "Broşür ve katalog",
+            "en": "Brochures and catalogues",
+            "ar": "البروشورات والكتالوجات"
+          },
+          "description": {
+            "tr": "Tek yaprak broşürden ciltli kataloğa.",
+            "en": "From single-sheet flyers to bound catalogues.",
+            "ar": "من المطويات ذات الورقة الواحدة إلى الكتالوجات المجلّدة."
+          }
+        },
+        {
+          "icon": "print",
+          "name": {
+            "tr": "Afiş ve büyük format",
+            "en": "Posters and large format",
+            "ar": "الملصقات والطباعة الكبيرة"
+          },
+          "description": {
+            "tr": "Afiş, branda ve vinil baskı.",
+            "en": "Poster, banner and vinyl printing.",
+            "ar": "طباعة ملصقات ولافتات وفينيل."
+          }
+        },
+        {
+          "icon": "inventory_2",
+          "name": {
+            "tr": "Ambalaj ve etiket",
+            "en": "Packaging and labels",
+            "ar": "العبوات والملصقات"
+          },
+          "description": {
+            "tr": "Kutu, poşet ve ürün etiketi baskısı.",
+            "en": "Box, bag and product label printing.",
+            "ar": "طباعة العلب والأكياس وملصقات المنتجات."
           }
         },
         {
           "icon": "design_services",
           "name": {
-            "tr": "Tasarım",
-            "en": "Design",
-            "ar": "التصميم"
+            "tr": "Tasarım ve mizanpaj",
+            "en": "Design and layout",
+            "ar": "التصميم والتنسيق"
           },
           "description": {
-            "tr": "Affiş, menü ve kart tasarımı.",
-            "en": "Poster, menu and card design.",
-            "ar": "تصميم بوستر وقائمة وبطاقة."
+            "tr": "Logoya uygun renk ve yerleşim düzeni.",
+            "en": "Colour and layout matched to your logo.",
+            "ar": "ألوان وتخطيط متوافقان مع شعارك."
           }
         },
         {
-          "icon": "photo_camera",
+          "icon": "mail",
           "name": {
-            "tr": "Fotoğraf seti",
-            "en": "Photo set",
-            "ar": "طقم صور"
+            "tr": "Kurumsal kırtasiye",
+            "en": "Corporate stationery",
+            "ar": "القرطاسية المؤسسية"
           },
           "description": {
-            "tr": "İç mekân ürün çekimi.",
-            "en": "Indoor product shoot.",
-            "ar": "تصوير داخلي للمنتج."
-          }
-        },
-        {
-          "icon": "videocam",
-          "name": {
-            "tr": "Video çekimi",
-            "en": "Video shoot",
-            "ar": "تصوير فيديو"
-          },
-          "description": {
-            "tr": "Tanıtım ve etkinlik videosu.",
-            "en": "Promotion and event video.",
-            "ar": "فيديو ترويج ومناسبة."
-          }
-        },
-        {
-          "icon": "ads_click",
-          "name": {
-            "tr": "İçerik takvimi",
-            "en": "Content calendar",
-            "ar": "تقويم محتوى"
-          },
-          "description": {
-            "tr": "Haftalık paylaşım planı (demo).",
-            "en": "Weekly sharing plan (demo).",
-            "ar": "خطة نشر أسبوعية (تجريبي)."
-          }
-        },
-        {
-          "icon": "storefront",
-          "name": {
-            "tr": "Mizanpaj",
-            "en": "Layout",
-            "ar": "تخطيط"
-          },
-          "description": {
-            "tr": "Baskı ve ekrana mizanpaj.",
-            "en": "Print and screen layout.",
-            "ar": "تخطيط طباعة وشاشة."
+            "tr": "Zarf, antetli kâğıt ve dosya seti.",
+            "en": "Envelopes, letterheads and folder sets.",
+            "ar": "مظاريف وورق رسمي وأطقم ملفات."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Baskı süreci",
+          "en": "Print process",
+          "ar": "مراحل الطباعة"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dört adımda baskı",
+          "en": "Printing in four steps",
+          "ar": "الطباعة في أربع خطوات"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Brief’ten teslime aynı akış.",
+          "en": "The same flow from brief to delivery.",
+          "ar": "المسار نفسه من الطلب إلى التسليم."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,53 +1847,53 @@
         {
           "year": "01",
           "title": {
-            "tr": "Kısa röportaj",
-            "en": "Brief talk",
-            "ar": "مكالمة قصيرة"
+            "tr": "Brief",
+            "en": "Brief",
+            "ar": "الطلب"
           },
           "text": {
-            "tr": "Tema ve zaman çerçevesi.",
-            "en": "Theme and time frame.",
-            "ar": "إطار الموضوع والوقت."
+            "tr": "Ürün, adet ve ölçü belirlenir.",
+            "en": "Product, quantity and size are set.",
+            "ar": "يُحدَّد المنتج والكمية والمقاس."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Taslak",
-            "en": "Draft",
-            "ar": "المسودة"
+            "tr": "Tasarım",
+            "en": "Design",
+            "ar": "التصميم"
           },
           "text": {
-            "tr": "İlk görsel ve metin önerisi.",
-            "en": "First visual and text proposal.",
-            "ar": "اقتراح أولي للصور والنص."
+            "tr": "İlk görsel ve renk önerisi hazırlanır.",
+            "en": "A first layout and colour proposal is prepared.",
+            "ar": "يُعدّ التصميم الأولي واقتراح الألوان."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Revizyon",
-            "en": "Revision",
-            "ar": "المراجعة"
+            "tr": "Prova ve onay",
+            "en": "Proof and approval",
+            "ar": "النسخة التجريبية والموافقة"
           },
           "text": {
-            "tr": "Yorum ve son düzen.",
-            "en": "Feedback and final edit.",
-            "ar": "ملاحظات وتعديل نهائي."
+            "tr": "Prova baskı alınır, onayınıza sunulur.",
+            "en": "A proof is printed and sent for your approval.",
+            "ar": "تُطبع نسخة تجريبية وتُعرض عليك للموافقة."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Teslim",
-            "en": "Delivery",
-            "ar": "التسليم"
+            "tr": "Baskı ve teslim",
+            "en": "Print and delivery",
+            "ar": "الطباعة والتسليم"
           },
           "text": {
-            "tr": "Baskı/ekran dosyaları.",
-            "en": "Print/screen files.",
-            "ar": "ملفات طباعة/شاشة."
+            "tr": "Baskı, kesim ve paketleme; teslim ya da kargo.",
+            "en": "Printing, cutting and packing; pickup or shipping.",
+            "ar": "طباعة وقص وتغليف؛ ثم تسليم أو شحن."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Atölye ekibi",
+          "en": "Workshop team",
+          "ar": "فريق الورشة"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Baskınızın arkasındakiler",
+          "en": "The people behind your print job",
+          "ar": "من يقفون وراء مطبوعاتك"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Tuğçe P.",
           "role": {
-            "tr": "Yaratıcı yönetmen",
-            "en": "Creative director",
-            "ar": "مخرج إبداعي"
+            "tr": "Grafik tasarımcı",
+            "en": "Graphic designer",
+            "ar": "مصممة جرافيك"
           },
           "bio": {
-            "tr": "8 yıl kampanya.",
-            "en": "8 years of campaigns.",
-            "ar": "٨ سنوات في الحملات."
+            "tr": "8 yıl kurumsal kimlik ve kartvizit tasarımı.",
+            "en": "8 years of brand identity and business card design.",
+            "ar": "8 سنوات في تصميم الهوية البصرية وبطاقات الأعمال."
           },
           "img": ""
         },
         {
           "name": "Emre S.",
           "role": {
-            "tr": "Tasarımcı",
-            "en": "Designer",
-            "ar": "مصمم"
+            "tr": "Baskı operatörü",
+            "en": "Press operator",
+            "ar": "مشغّل الطباعة"
           },
           "bio": {
-            "tr": "6 yıl mizanpaj.",
-            "en": "6 years of layout.",
-            "ar": "٦ سنوات في التخطيط."
+            "tr": "6 yıl ofset ve dijital baskı.",
+            "en": "6 years of offset and digital printing.",
+            "ar": "6 سنوات في الطباعة الأوفست والرقمية."
           },
           "img": ""
         },
         {
           "name": "Selin D.",
           "role": {
-            "tr": "Fotoğrafçı",
-            "en": "Photographer",
-            "ar": "مصور"
+            "tr": "Baskı sonrası işlem ustası",
+            "en": "Finishing specialist",
+            "ar": "أخصائية التشطيب"
           },
           "bio": {
-            "tr": "5 yıl set.",
-            "en": "5 years of sets.",
-            "ar": "٥ سنوات في الأطقم."
+            "tr": "5 yıl kesim, cilt ve lak uygulaması.",
+            "en": "5 years of cutting, binding and varnish finishing.",
+            "ar": "5 سنوات في القص والتجليد وتطبيق الورنيش."
           },
           "img": ""
         }
@@ -1998,9 +2009,9 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
           "tr": "Müşterilerimiz ne diyor?",
@@ -2019,46 +2030,46 @@
         {
           "name": "Z. Öztürk.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Client",
-            "ar": "زبون"
+            "tr": "Girişimci",
+            "en": "Entrepreneur",
+            "ar": "رائدة أعمال"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Taslak hızlı; baskı net.",
-            "en": "Draft fast; print sharp.",
-            "ar": "مسودة سريعة؛ طباعة دقيقة."
+            "tr": "Kartvizitler renk provasıyla geldi; baskı net.",
+            "en": "The business cards came with a colour proof; the print is sharp.",
+            "ar": "وصلت البطاقات مع نسخة تجريبية للألوان وكانت الطباعة واضحة."
           }
         },
         {
           "name": "F. Demirel.",
           "role": {
-            "tr": "Kafe",
+            "tr": "Kafe sahibi",
             "en": "Café owner",
-            "ar": "مقهى"
+            "ar": "صاحب مقهى"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Menü ve affiş aynı tonda.",
-            "en": "Menu and poster in the same tone.",
-            "ar": "القائمة والملصق بنفس النغمة."
+            "tr": "Menü ve afiş aynı tonda basıldı.",
+            "en": "The menu and poster were printed in the same tone.",
+            "ar": "طُبعت القائمة والملصق بالدرجة اللونية نفسها."
           }
         },
         {
           "name": "İ. Kaya.",
           "role": {
-            "tr": "Etkinlik",
+            "tr": "Etkinlik organizatörü",
             "en": "Event organiser",
-            "ar": "مناسبة"
+            "ar": "منظّم فعاليات"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Video teslimi zamanında.",
-            "en": "Video delivery on time.",
-            "ar": "تسليم الفيديو في الوقت."
+            "tr": "Broşürler söz verilen günde teslim edildi.",
+            "en": "The brochures were delivered on the promised day.",
+            "ar": "سُلّمت البروشورات في اليوم الموعود."
           }
         }
       ],
@@ -2103,17 +2114,17 @@
         "radius": "4px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Atölyede neler basılır?",
+          "en": "What do we print?",
+          "ar": "ماذا نطبع في الورشة؟"
         },
         "title": {
-          "tr": "Ne üretiyoruz?",
-          "en": "What do we create?",
-          "ar": "ماذا نعيد؟"
+          "tr": "Kartvizitten ambalaja",
+          "en": "From business cards to packaging",
+          "ar": "من بطاقات الأعمال إلى العبوات"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilîdir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2126,14 +2137,14 @@
       "data": [
         {
           "baslik": {
-            "tr": "Kampanya",
-            "en": "Campaign",
-            "ar": "حملة"
+            "tr": "Kartvizit baskısı",
+            "en": "Business card printing",
+            "ar": "طباعة بطاقات الأعمال"
           },
           "metin": {
-            "tr": "Mevsim ve etkinlik planı.",
-            "en": "Season and event plan.",
-            "ar": "خطة موسم ومناسبة."
+            "tr": "Mat, parlak ve kabartma seçenekleriyle kartvizit.",
+            "en": "Business cards in matt, gloss and embossed finishes.",
+            "ar": "بطاقات أعمال بتشطيبات مطفية ولامعة وبارزة."
           },
           "img": "ajans-is-billboard.webp",
           "alt": {
@@ -2145,16 +2156,16 @@
         },
         {
           "baslik": {
-            "tr": "Tasarım",
-            "en": "Design",
-            "ar": "التصميم"
+            "tr": "Broşür ve katalog",
+            "en": "Brochures and catalogues",
+            "ar": "البروشورات والكتالوجات"
           },
           "metin": {
-            "tr": "Affiş, menü ve kart tasarımı.",
-            "en": "Poster, menu and card design.",
-            "ar": "تصميم بوستر وقائمة وبطاقة."
+            "tr": "Tek yaprak broşürden ciltli kataloğa.",
+            "en": "From single-sheet flyers to bound catalogues.",
+            "ar": "من المطويات ذات الورقة الواحدة إلى الكتالوجات المجلّدة."
           },
-          "img": "ajans-is-sosyal.webp",
+          "img": "ajans-ekip-masa.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2164,16 +2175,16 @@
         },
         {
           "baslik": {
-            "tr": "Fotoğraf seti",
-            "en": "Photo set",
-            "ar": "طقم صور"
+            "tr": "Afiş ve büyük format",
+            "en": "Posters and large format",
+            "ar": "الملصقات والطباعة الكبيرة"
           },
           "metin": {
-            "tr": "İç mekân ürün çekimi.",
-            "en": "Indoor product shoot.",
-            "ar": "تصوير داخلي للمنتج."
+            "tr": "Afiş, branda ve vinil baskı.",
+            "en": "Poster, banner and vinyl printing.",
+            "ar": "طباعة ملصقات ولافتات وفينيل."
           },
-          "img": "ajans-is-kirtasiye.webp",
+          "img": "ajans-is-ambalaj.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "4px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Baskı yaptığımız işletmeler",
+          "en": "Businesses we print for",
+          "ar": "الأعمال التي نطبع لها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal işletme adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional business names; they do not belong to a real organisation.",
+          "ar": "أسماء أعمال افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2252,16 +2263,16 @@
           "name": "Demo Etkinlik"
         },
         {
-          "name": "Demo Baskı"
+          "name": "Demo Ofis"
         },
         {
-          "name": "Demo Set"
+          "name": "Demo Okul"
         },
         {
-          "name": "Demo Menü"
+          "name": "Demo Mağaza"
         },
         {
-          "name": "Demo Video"
+          "name": "Demo Dernek"
         }
       ],
       "veri": {
@@ -2291,64 +2302,104 @@
           "ar": "الأسئلة الشائعة"
         },
         "title": {
-          "tr": "Sıkça sorulan sorular",
-          "en": "Frequently asked questions",
-          "ar": "الأسئلة الشائعة"
+          "tr": "Baskı hakkında sorular",
+          "en": "Questions about printing",
+          "ar": "أسئلة حول الطباعة"
         },
         "description": {
-          "tr": "Merak edilenler ve kısa yanıtlar.",
-          "en": "Common questions and short answers.",
-          "ar": "أسئلة متكررة وإجابات موجزة."
+          "tr": "Adet, prova ve fiyat üzerine kısa yanıtlar.",
+          "en": "Short answers on quantity, proofs and pricing.",
+          "ar": "إجابات موجزة عن الكمية والنسخ التجريبية والأسعار."
         },
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
       },
       "data": [
         {
+          "question": {
+            "tr": "En az kaç adet basılır?",
+            "en": "What is the minimum print run?",
+            "ar": "ما أقل كمية للطباعة؟"
+          },
+          "answer": {
+            "tr": "Ürüne göre değişir; kartvizitte küçük adetli dijital baskı seçeneği vardır (kurgusal demo bilgisi).",
+            "en": "It depends on the product; business cards have a small-run digital option (fictional demo information).",
+            "ar": "تختلف حسب المنتج؛ وتتوفر للبطاقات طباعة رقمية بكميات صغيرة (معلومة تجريبية افتراضية)."
+          },
           "soru": {
-            "tr": "Kampanya süresi ne kadar?",
-            "en": "How long is a campaign?",
-            "ar": "مدة الحملة كم?"
+            "tr": "En az kaç adet basılır?",
+            "en": "What is the minimum print run?",
+            "ar": "ما أقل كمية للطباعة؟"
           },
           "cevap": {
-            "tr": "Kapsama göre değişir; demo metni örnek vermez.",
-            "en": "It varies by scope; this demo text gives no example.",
-            "ar": "تتغير حسب النطاق؛ ولا يعطي هذا النص التجريبي مثالاً."
+            "tr": "Ürüne göre değişir; kartvizitte küçük adetli dijital baskı seçeneği vardır (kurgusal demo bilgisi).",
+            "en": "It depends on the product; business cards have a small-run digital option (fictional demo information).",
+            "ar": "تختلف حسب المنتج؛ وتتوفر للبطاقات طباعة رقمية بكميات صغيرة (معلومة تجريبية افتراضية)."
           }
         },
         {
+          "question": {
+            "tr": "Baskıdan önce prova alabilir miyim?",
+            "en": "Can I get a proof before printing?",
+            "ar": "هل يمكنني الحصول على نسخة تجريبية قبل الطباعة؟"
+          },
+          "answer": {
+            "tr": "Evet; onayınızdan sonra seri baskıya geçilir (demo metni).",
+            "en": "Yes; the full run starts only after your approval (demo text).",
+            "ar": "نعم؛ ولا تبدأ الطباعة الكاملة إلا بعد موافقتك (نص تجريبي)."
+          },
           "soru": {
-            "tr": "Baskı dahil mi?",
-            "en": "Is printing included?",
-            "ar": "هل الطباعة مشمولة?"
+            "tr": "Baskıdan önce prova alabilir miyim?",
+            "en": "Can I get a proof before printing?",
+            "ar": "هل يمكنني الحصول على نسخة تجريبية قبل الطباعة؟"
           },
           "cevap": {
-            "tr": "Kampanya tipine göre; demo metindir.",
-            "en": "By campaign type; this is a demo text.",
-            "ar": "حسب نوع الحملة؛ هذا نص تجريبي."
+            "tr": "Evet; onayınızdan sonra seri baskıya geçilir (demo metni).",
+            "en": "Yes; the full run starts only after your approval (demo text).",
+            "ar": "نعم؛ ولا تبدأ الطباعة الكاملة إلا بعد موافقتك (نص تجريبي)."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
             "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Fiyatlar nasıl belirlenir?",
+            "en": "How are prices determined?",
+            "ar": "كيف تُحدَّد الأسعار؟"
+          },
+          "answer": {
+            "tr": "Adet, kâğıt ve uygulamaya göre teklifle belirlenir; bu demoda fiyat listesi yoktur.",
+            "en": "Priced by quote based on quantity, paper and finishing; there is no price list in this demo.",
+            "ar": "يُحدَّد السعر بعرض سعر حسب الكمية والورق والتشطيب؛ لا توجد قائمة أسعار في هذا العرض التجريبي."
+          },
           "soru": {
             "tr": "Fiyatlar nasıl belirlenir?",
             "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "ar": "كيف تُحدَّد الأسعار؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Adet, kâğıt ve uygulamaya göre teklifle belirlenir; bu demoda fiyat listesi yoktur.",
+            "en": "Priced by quote based on quantity, paper and finishing; there is no price list in this demo.",
+            "ar": "يُحدَّد السعر بعرض سعر حسب الكمية والورق والتشطيب؛ لا توجد قائمة أسعار في هذا العرض التجريبي."
           }
         }
       ],
@@ -2406,9 +2457,9 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "4px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Baskı teklifi isteyin",
+          "en": "Request a print quote",
+          "ar": "اطلب عرض سعر للطباعة"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
@@ -2421,7 +2472,7 @@
           "ar": "Baskı Atölye"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilîdir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Baskı talep formu",
+          "en": "Print request form",
+          "ar": "نموذج طلب الطباعة"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Kartvizit",
+              "en": "Business cards",
+              "ar": "بطاقات أعمال"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Broşür ve afiş",
+              "en": "Brochures and posters",
+              "ar": "بروشورات وملصقات"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Ambalaj ve etiket",
+              "en": "Packaging and labels",
+              "ar": "عبوات وملصقات"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,32 +2691,32 @@
           "ar": "Baskı Atölye"
         },
         "description": {
-          "tr": "Baskı Atölye, baskı ve kartvizit üretir. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Baski produces print and cards. Images are representative and text is fictional.",
-          "ar": "ينتج بلك طباعة وبطاقات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Baskı Atölye; kartvizit, broşür, afiş ve ambalaj baskısını tasarımdan kesime tek atölyede yapar. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Baskı Atölye prints business cards, brochures, posters and packaging in one workshop, from design to cutting. Images are representative and text is fictional.",
+          "ar": "Baskı Atölye مطبعة تنفّذ طباعة بطاقات الأعمال والبروشورات والملصقات والعبوات في ورشة واحدة من التصميم إلى القص. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Atölye",
-          "en": "Studio",
-          "ar": "الاستوديو"
+          "tr": "Renk provası",
+          "en": "Colour proof",
+          "ar": "تجربة الألوان"
         },
         "spot2": {
-          "tr": "Set ve mizanpaj aynı masada.",
-          "en": "Set and layout at the same table.",
-          "ar": "الطقم والتخطيط على نفس الطاولة."
+          "tr": "Seri baskıdan önce onay provası.",
+          "en": "An approval proof before the full run.",
+          "ar": "نسخة تجريبية للموافقة قبل الطباعة الكاملة."
         },
-        "icon2": "verified",
+        "icon2": "palette",
         "name3": {
-          "tr": "Kampanya defteri",
-          "en": "Campaign book",
-          "ar": "دفتر الحملات"
+          "tr": "Kâğıt kartelası",
+          "en": "Paper swatch book",
+          "ar": "عيّنات الورق"
         },
         "spot3": {
-          "tr": "Her kampanya için renk ve ton kaydı.",
-          "en": "A color and tone record for each campaign.",
-          "ar": "سجل الألوان والنغمات لكل حملة."
+          "tr": "Gramaj ve yüzey seçenekleri masada denenir.",
+          "en": "Weights and surfaces can be felt at the table.",
+          "ar": "يمكن تجربة الأوزان والأسطح على الطاولة."
         },
-        "icon3": "schedule",
+        "icon3": "layers",
         "img": "ajans-ekip-masa.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cmt 09:00 – 18:00",
+          "en": "Mon–Sat 09:00 – 18:00",
+          "ar": "الاثنين–السبت 09:00 – 18:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2783,9 +2835,9 @@
           "ar": "البريد الإلكتروني"
         },
         "mailText": {
-          "tr": "Teklif ve detaylı sorular için",
-          "en": "For quotes and detailed questions",
-          "ar": "لعروض الأسعار والأسئلة التفصيلية"
+          "tr": "Dosya ve teklif soruları için",
+          "en": "For artwork and quote questions",
+          "ar": "لأسئلة الملفات وعروض الأسعار"
         },
         "mailBtn": {
           "tr": "E-posta gönder",
@@ -2847,25 +2899,25 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "4px",
         "title": {
-          "tr": "Reşten sonraya",
-          "en": "After the press",
-          "ar": "بعد المطبعة"
+          "tr": "Baskıya hazır mısınız?",
+          "en": "Ready to print?",
+          "ar": "هل أنت جاهز للطباعة؟"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Formu doldurun; iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Fill in the form; we reply within two business days. No data is stored on this demo site.",
+          "ar": "املأ النموذج وسنردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Teklif al",
+          "en": "Get a quote",
+          "ar": "احصل على عرض سعر"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
-          "tr": "Hizmetleri gör",
-          "en": "See services",
-          "ar": "شاهد الخدمات"
+          "tr": "Baskı ürünlerini gör",
+          "en": "See print products",
+          "ar": "شاهد منتجات الطباعة"
         },
         "btn2Url": "hizmetler",
         "number": "903420200106",
