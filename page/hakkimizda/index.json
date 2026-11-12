@@ -22,8 +22,8 @@
   "pathnext": "",
   "description": {
     "tr": "Baskı ve kartvizit; görseller temsilîdir.",
-    "en": "Print and cards; images are representative.",
-    "ar": "طباعة وبطاقات؛ الصور تمثيلية."
+    "en": "Printing and business cards; images are representative.",
+    "ar": "طباعة وبطاقات أعمال؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-05T23:44:38.502Z",
+  "update": "2026-11-12T07:36:15.202Z",
   "date": "2026-10-30"
 }

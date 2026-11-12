@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Baskı ve kartvizit; görseller temsilîdir.",
-    "en": "Print and cards; images are representative.",
-    "ar": "طباعة وبطاقات؛ الصور تمثيلية."
+    "tr": "Kartvizit, broşür, afiş ve ambalaj baskısı; görseller temsilîdir.",
+    "en": "Business card, brochure, poster and packaging printing; images are representative.",
+    "ar": "طباعة بطاقات الأعمال والبروشورات والملصقات والعبوات؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "baskı, kartvizit, ajanda",
-    "en": "print, business card, agenda",
-    "ar": "طباعة، بطاقة أعمال، أجندة"
+    "tr": "kartvizit, baskı, broşür, afiş, ambalaj",
+    "en": "business cards, printing, brochures, posters, packaging",
+    "ar": "بطاقات أعمال، طباعة، بروشورات، ملصقات، عبوات"
   },
   "category": "Kurumsal",
   "name": "Baskı Atölye",

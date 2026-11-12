@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Fikirten baskıya; metinden görselle.",
-        "en": "From idea to print; from text to image.",
-        "ar": "من الفكرة إلى الطباعة؛ من النص إلى الصورة."
+        "tr": "Fikirden baskıya; dosyadan teslime.",
+        "en": "From the idea to print; from file to delivery.",
+        "ar": "من الفكرة إلى الطباعة؛ ومن الملف إلى التسليم."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -50,8 +50,8 @@
       "pathnext": "",
       "description": {
         "tr": "Baskı ve kartvizit; görseller temsilîdir.",
-        "en": "Print and cards; images are representative.",
-        "ar": "طباعة وبطاقات؛ الصور تمثيلية."
+        "en": "Printing and business cards; images are representative.",
+        "ar": "طباعة وبطاقات أعمال؛ الصور تمثيلية."
       }
     },
     {
